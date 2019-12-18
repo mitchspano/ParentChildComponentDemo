@@ -2,7 +2,14 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/accountHighlights": [
+                "accountHighlights/accountHighlights.js"
+            ],
+            "c/contactAccountHighlights": [
+                "contactAccountHighlights/contactAccountHighlights.js"
+            ]
+        }
     },
     "include": [
         "**/*",
