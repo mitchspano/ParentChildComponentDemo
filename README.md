@@ -12,4 +12,8 @@ This component will use lightning-record-form to display the compact layout for 
 
 This component will wrap around the accountHighlights component to render the account highlights for a given contact. This component uses the getRecord wire adapter to get the field values for the contact (specifically, the AccountID), then the component will pass that Id in as recordId for the nested accountHighlights component.
 
+## generic Parent Acccount Highlights Component
+
+This component will wrap around the accountHighlights component to render the account highlights for any related record.. This component uses the getRecord wire adapter to get the field values for the record (specifically, the AccountID) as configured within page builder, then the component will pass that Id in as recordId for the nested accountHighlights component.
+
 
